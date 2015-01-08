@@ -277,8 +277,6 @@ Exporter.prototype.showContent = function (contentType) {
   default:
     alert('YoutubeSubExporter - invalid content request');
   }
-
-  return;
 };
 
 // ------------------------------------------------------------------
