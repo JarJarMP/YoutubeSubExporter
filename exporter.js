@@ -287,7 +287,7 @@ Exporter.prototype.isInProgress = function () {
 
   inPorgress = Boolean(localStorage.getItem(self.localStoragePrefix + 'in_progress'));
 
-  return (inPorgress === true);
+  return inPorgress;
 };
 
 // ------------------------------------------------------------------
